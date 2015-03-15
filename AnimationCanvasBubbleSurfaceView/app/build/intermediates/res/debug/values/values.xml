@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/andrewaday/AndroidStudioProjects/AnimationCanvasBubbleSurfaceView/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="image_height">200dp</dimen>
+    <dimen name="image_width">200dp</dimen>
+    <!-- From: file:/Users/andrewaday/AndroidStudioProjects/AnimationCanvasBubbleSurfaceView/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">GraphicsCanvasBubbleSurfaceView</string>
+</resources>

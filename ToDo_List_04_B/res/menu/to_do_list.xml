@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	add the two menu items for the action bar here
+	remember to create a submenu so you don't clear the list on first click 
+    
+</menu>

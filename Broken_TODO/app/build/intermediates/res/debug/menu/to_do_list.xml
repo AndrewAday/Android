@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/new_item"
+        android:title="Add New"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/planes"
+        android:title="Planes!"
+        android:icon="@drawable/ic_action_airplane_mode_on"
+        android:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/confirm"
+                android:title="Are u sure bruh?"/>
+            <item
+                android:id="@+id/cancel"
+                android:title="nah man"/>
+        </menu>
+    </item>
+</menu>
+<!-- From: file:/Users/andrewaday/AndroidStudioProjects/Broken_TODO/app/src/main/res/menu/to_do_list.xml -->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer_field"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return!"
+        android:id="@+id/button"
+        android:onClick="ret"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call This Number"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="call"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View History"
+        android:id="@+id/history"
+        android:layout_gravity="center_horizontal"
+        android:onClick="displayHistory"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/equation_history"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

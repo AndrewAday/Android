@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2c3e50"
+    >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Chord: All your music in one place"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ecf0f1"/>
+
+    <!--<ProgressBar-->
+    <!--android:id="@+id/progressBar1"-->
+    <!--style="?android:attr/progressBarStyleLarge"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/editText1"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="24dp" />-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pandora_imageview"
+        android:src="@drawable/pandora"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pandora_imageview"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/music_layout">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/soundcloud_imageview"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_below="@+id/pandora_imageview"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/soundcloud"
+            android:layout_weight="0.5"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:maxWidth="180dp"
+            android:maxHeight="180dp"
+            android:padding="5dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spotify_imageview"
+            android:layout_below="@+id/pandora_imageview"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/new_spotify"
+            android:layout_weight="0.5"
+            android:paddingRight="-20dp"
+            android:paddingLeft="-30dp"
+            android:paddingTop="-10dp"
+            android:paddingBottom="-10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:maxWidth="180dp"
+            android:maxHeight="180dp"
+            />
+
+    </LinearLayout>
+
+    <com.facebook.widget.LoginButton
+        android:id="@+id/authButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/music_layout"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

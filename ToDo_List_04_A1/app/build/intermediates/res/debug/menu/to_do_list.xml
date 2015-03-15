@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item 
+        android:id="@+id/new_item"
+        android:title="Add New"
+        android:icon="@drawable/add_new_item"
+        android:showAsAction="always" />
+    <item 
+        android:id="@+id/nuke" 
+        android:title="Nuke"
+        android:icon="@drawable/nuke_item"
+        android:showAsAction="always">
+        <menu>
+            <item 
+                android:id="@+id/confirm"
+		        android:title="Clear All?"/>
+		    <item 
+		        android:id="@+id/cancel"
+		        android:title="Cancel"/>
+        </menu>
+	</item>
+</menu>
+<!-- From: file:/Users/andrewaday/AndroidStudioProjects/ToDo_List_04_A1/app/src/main/res/menu/to_do_list.xml -->

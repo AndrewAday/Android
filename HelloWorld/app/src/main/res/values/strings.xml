@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hello World</string>
+    <string name="hello_world">How did the hipster burn his tongue?
+He drank his coffee before it was...cool.</string></string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,2 @@
+/Users/andrewaday/AndroidStudioProjects/Broken_TODO/app/build/intermediates/classes/debug
+/Users/andrewaday/AndroidStudioProjects/Broken_TODO/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-de19e015cd4ad9b4b999cac388a9ee947a75a746.jar

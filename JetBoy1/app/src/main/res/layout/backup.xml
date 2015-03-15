@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="JetBoy crashes without fail, so I made the intent redirect here instead"
+        android:id="@+id/textView3"
+        android:textColor="#000"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/name"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="back"
+        android:id="@+id/button"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="P.S. The reason that button says &quot;DON&apos;T CLICK&quot; is because I was trying to make HTTP requests to a server I have but I could not get it to work for the life of me. So unfortuntaely this is not a legit account system :( Maybe I can finish it in class though!"
+        android:id="@+id/textView4"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000" />
+</LinearLayout>

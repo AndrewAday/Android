@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:20:1
+	package
+		ADDED from AndroidManifest.xml:21:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:22:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:21:39
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:20:11
+uses-sdk
+ADDED from AndroidManifest.xml:24:2
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:25:4
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:24:12
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+application
+ADDED from AndroidManifest.xml:28:2
+	android:label
+		ADDED from AndroidManifest.xml:29:3
+	android:icon
+		ADDED from AndroidManifest.xml:28:15
+	android:theme
+		ADDED from AndroidManifest.xml:30:3
+activity#com.example.android.jetboy.JetBoy
+ADDED from AndroidManifest.xml:31:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:33:4
+	android:label
+		ADDED from AndroidManifest.xml:32:4
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+activity#com.example.android.jetboy.Home
+ADDED from AndroidManifest.xml:36:9
+	android:name
+		ADDED from AndroidManifest.xml:36:19
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:37:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:38:17
+	android:name
+		ADDED from AndroidManifest.xml:38:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:39:17
+	android:name
+		ADDED from AndroidManifest.xml:40:21
+activity#com.example.android.jetboy.Backup
+ADDED from AndroidManifest.xml:43:9
+	android:name
+		ADDED from AndroidManifest.xml:43:19

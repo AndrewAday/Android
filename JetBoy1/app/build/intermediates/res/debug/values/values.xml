@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/andrewaday/AndroidStudioProjects/JetBoy1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">JetBoy</string>
+    <string name="helpText">Help JET BOY get through the asteroid field! Blast the asteroids in time with the beat and listen to the music respond!\n\nUse your FIRE button to explode each asteroid as it passes through the laser guide.</string>
+    <string name="loseText">Sorry, you lose.</string>
+    <string name="restart">RETURN</string>
+    <string name="retry">RETRY</string>
+    <string name="start">START!</string>
+    <string name="timer">1:12</string>
+    <string name="winText">You win, You are the master of the Universe!\n\nJETBOY by SONiVOX®\n\nProduced by Jennifer Hruska\nMusic by Eric Barlaan\nGraphics by Randy O’Connor\nProgramming by MageTech</string>
+    <!-- From: file:/Users/andrewaday/AndroidStudioProjects/JetBoy1/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ButtonText">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="helpText">
+	    <item name="android:textSize">20sp</item>
+    	<item name="android:textColor">#000000</item>>
+    </style>
+    <style name="timerText">
+	    <item name="android:textSize">18sp</item>
+    	<item name="android:textColor">#ffffff</item>>	
+    </style>
+    <style name="x" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#33CCFF</item>
+    </style>
+</resources>
